@@ -1,0 +1,6 @@
+#availability_zone = "us-east-1a"
+instance_type      = "t2.micro"
+ami_id             = "ami-0e34b50e714a297f1"
+bucket_name        = "fahatkhann-s3-bucket"
+subnet_cidr        = "10.0.1.0/24"
+vpc_cidr           = "10.0.0.0/16"
