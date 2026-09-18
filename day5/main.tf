@@ -15,7 +15,7 @@ resource "aws_vpc" "fahat" {
     }
     resource "aws_instance" "fahat-ec2" {
         ami           = var.ami_id
-        instance_type = var.instance_type
+        instance_type = terrvar.instance_type
         subnet_id     = aws_subnet.fahat-subnet.id
         tags = {
             Name = "fahat-ec2"
